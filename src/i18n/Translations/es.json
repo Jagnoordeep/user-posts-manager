@@ -1,0 +1,81 @@
+{
+  "settings": {
+    "title": "Configuración",
+    "customizeExperience": "Personaliza tu experiencia",
+    "language": "Idioma",
+    "languageSubtitle": "Selecciona tu idioma preferido",
+    "defaultLanguage": "Idioma predeterminado",
+    "spanishLanguage": "Español",
+    "notifications": "Notificaciones",
+    "notificationsSubtitle": "Administra tus preferencias de notificaciones",
+    "emailNotifications": "Notificaciones por correo",
+    "emailNotificationsSubtitle": "Recibe actualizaciones sobre nuevos usuarios y actividad",
+    "status": "Estado",
+    "enabled": "Activado",
+    "disabled": "Desactivado",
+    "notificationsEnabledMsg": "Recibirás notificaciones por correo de todas las actividades.",
+    "notificationsDisabledMsg": "Las notificaciones están desactivadas. Actívalas arriba.",
+    "saveChanges": "Guardar Cambios",
+    "saved": "¡Guardado!"
+  },
+  "navbar": {
+    "usersList": "Lista de Usuarios",
+    "addNewUser": "Agregar Nuevo Usuario",
+    "charts": "Gráficos",
+    "posts": "Publicaciones",
+    "postsPerUser": "Publicaciones por Usuario",
+    "postsChart": "Gráfico de Publicaciones",
+    "settings": "Configuración"
+  },
+  "usersList": {
+    "title": "Gestión de Usuarios",
+    "subtitle": "Gestiona tus usuarios con búsqueda, filtros y paginación",
+    "addUser": "Agregar Usuario",
+    "searchPlaceholder": "Buscar por nombre o correo",
+    "allGenders": "Todos los Géneros",
+    "male": "Masculino",
+    "female": "Femenino",
+    "filterByAge": "Filtrar por edad",
+    "usersCount": "Usuarios ({{count}})",
+    "pageOf": "Página {{current}} de {{total}}",
+    "noUsersFound": "No se encontraron usuarios con esos criterios",
+    "tryAdjusting": "Intenta ajustar tu búsqueda o filtros",
+    "name": "Nombre",
+    "email": "Correo",
+    "age": "Edad",
+    "phone": "Teléfono",
+    "gender": "Género",
+    "actions": "Acciones",
+    "yrs": "años",
+    "view": "Ver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "confirmDelete": "Confirmar Eliminación",
+    "confirmDeleteMsg": "¿Estás seguro de que deseas eliminar este usuario?",
+    "yes": "Sí",
+    "no": "No",
+    "showing": "Mostrando {{from}} a {{to}} de {{total}} resultados",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "posts": {
+    "title": "Todas las Publicaciones",
+    "subtitle": "Explora y busca entre todas las publicaciones",
+    "searchPlaceholder": "Buscar publicaciones por título o contenido...",
+    "allTags": "Todas las Etiquetas",
+    "postsFound": "{{count}} publicaciones encontradas",
+    "noPostsFound": "No se encontraron publicaciones",
+    "tryAdjusting": "Intenta ajustar tu búsqueda o filtro de etiquetas",
+    "views": "vistas"
+  },
+  "addUser": {
+    "backToUsers": "Volver a Usuarios"
+  },
+  "charts": {
+    "title": "Análisis de Usuarios",
+    "subtitle": "Visualiza los datos de tus usuarios",
+    "totalUsers": "Total de Usuarios",
+    "maleUsers": "Usuarios Masculinos",
+    "femaleUsers": "Usuarias Femeninas"
+  }
+}

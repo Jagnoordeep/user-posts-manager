@@ -1,0 +1,81 @@
+{
+  "settings": {
+    "title": "Settings",
+    "customizeExperience": "Customize your experience",
+    "language": "Language",
+    "languageSubtitle": "Select your preferred language",
+    "defaultLanguage": "Default language",
+    "spanishLanguage": "Spanish",
+    "notifications": "Notifications",
+    "notificationsSubtitle": "Manage your notification preferences",
+    "emailNotifications": "Email Notifications",
+    "emailNotificationsSubtitle": "Receive email updates about new users and activity",
+    "status": "Status",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "notificationsEnabledMsg": "You will receive email notifications for all user activities.",
+    "notificationsDisabledMsg": "Notifications are disabled. Toggle above to enable.",
+    "saveChanges": "Save Changes",
+    "saved": "Saved!"
+  },
+  "navbar": {
+    "usersList": "Users List",
+    "addNewUser": "Add New User",
+    "charts": "Charts",
+    "posts": "Posts",
+    "postsPerUser": "Posts Per User",
+    "postsChart": "Posts Chart",
+    "settings": "Settings"
+  },
+  "usersList": {
+    "title": "Users Management",
+    "subtitle": "Manage your users with search, filter, and pagination",
+    "addUser": "Add User",
+    "searchPlaceholder": "Search by name or email",
+    "allGenders": "All Genders",
+    "male": "Male",
+    "female": "Female",
+    "filterByAge": "Filter by age",
+    "usersCount": "Users ({{count}})",
+    "pageOf": "Page {{current}} of {{total}}",
+    "noUsersFound": "No users found matching your criteria",
+    "tryAdjusting": "Try adjusting your search or filter criteria",
+    "name": "Name",
+    "email": "Email",
+    "age": "Age",
+    "phone": "Phone",
+    "gender": "Gender",
+    "actions": "Actions",
+    "yrs": "yrs",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirmDelete": "Confirm Delete",
+    "confirmDeleteMsg": "Are you sure you want to delete this user?",
+    "yes": "Yes",
+    "no": "No",
+    "showing": "Showing {{from}} to {{to}} of {{total}} results",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "posts": {
+    "title": "All Posts",
+    "subtitle": "Browse and search through all posts",
+    "searchPlaceholder": "Search posts by title or content...",
+    "allTags": "All Tags",
+    "postsFound": "{{count}} posts found",
+    "noPostsFound": "No posts found",
+    "tryAdjusting": "Try adjusting your search or tag filter",
+    "views": "views"
+  },
+  "addUser": {
+    "backToUsers": "Back to Users"
+  },
+  "charts": {
+    "title": "User Analytics",
+    "subtitle": "Visualize your user data",
+    "totalUsers": "Total Users",
+    "maleUsers": "Male Users",
+    "femaleUsers": "Female Users"
+  }
+}
