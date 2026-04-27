@@ -67,4 +67,4 @@ const UserDetails = () => {
   );
 };
 
-export default UserDetails; // ✅ DEFAULT EXPORT (this fixes the error!)
+export default UserDetails; // 
