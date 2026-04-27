@@ -9,7 +9,7 @@ const LanguageSwitcher = () => {
     i18n.changeLanguage(lng);
   };
 
-  // i18n.language can return 'en-US' instead of 'en', so use startsWith
+  
   const currentLang = i18n.language?.startsWith('es') ? 'es' : 'en';
 
   return (
