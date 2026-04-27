@@ -135,7 +135,7 @@ const PostsPerUser = () => {
                         key={post.id}
                         className="bg-white rounded-3xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition-all duration-300"
                       >
-                        {/* Post Header — always visible */}
+                        {/* Post Header */}
                         <button
                           className="w-full text-left p-6 flex items-start justify-between gap-4"
                           onClick={() => setExpandedPost(expandedPost === post.id ? null : post.id)}
@@ -186,7 +186,7 @@ const PostsPerUser = () => {
           </>
         )}
 
-        {/* Empty state — no user selected */}
+        {/* Empty state */}
         {!selectedUserId && (
           <div className="text-center py-20 bg-white rounded-3xl shadow-sm border border-gray-100">
             <Layout className="w-16 h-16 text-gray-200 mx-auto mb-4" />
