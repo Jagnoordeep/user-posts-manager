@@ -31,7 +31,7 @@ import PostsChart from "./Components/Charts/PostsChart";
 function App() {
   return (
     <I18nextProvider i18n={i18n}>
-      <ErrorBoundary> {/* ✅ Moved outside Router to catch routing errors */}
+      <ErrorBoundary> 
         <AuthProvider>
           <SettingsProvider>
             <UserProvider>
@@ -47,7 +47,7 @@ function App() {
 <Route path="/user-posts" element={<PostsPerUser />} />
 <Route path="/posts-chart" element={<ProtectedRoute><PostsChart /></ProtectedRoute>} />            
             
-                        {/* Protected Routes */}
+                       
                         <Route
                           path="/"
                           element={
