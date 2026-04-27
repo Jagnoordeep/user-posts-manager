@@ -8,7 +8,7 @@ import {
 } from 'recharts';
 import { FileText, Tag, ThumbsUp, Eye } from 'lucide-react';
 
-// ── Bar Chart: Posts per Tag ──────────────────────────────────────────────────
+
 const PostsPerTagBar = ({ data }) => (
   <div className="bg-white rounded-3xl p-8 shadow-2xl border border-gray-100">
     <div className="flex items-center gap-3 mb-8">
@@ -54,7 +54,7 @@ const PostsPerTagBar = ({ data }) => (
   </div>
 );
 
-// ── Line Chart: Likes vs Views per Tag ────────────────────────────────────────
+
 const LikesViewsLine = ({ data }) => (
   <div className="bg-white rounded-3xl p-8 shadow-2xl border border-gray-100">
     <div className="flex items-center gap-3 mb-8">
@@ -101,11 +101,11 @@ const LikesViewsLine = ({ data }) => (
   </div>
 );
 
-// ── Main Page ─────────────────────────────────────────────────────────────────
+
 const PostsChart = () => {
   const { data, loading, error } = useFetch('https://dummyjson.com/posts?limit=100');
 
-  // Posts per tag
+  
   const postsPerTagData = useMemo(() => {
     if (!data?.posts) return [];
     const tagMap = {};
@@ -120,7 +120,7 @@ const PostsChart = () => {
     return Object.values(tagMap).sort((a, b) => b.count - a.count);
   }, [data]);
 
-  // Summary stats
+  
   const totalLikes = useMemo(() =>
     data?.posts?.reduce((sum, p) => sum + (p.reactions?.likes ?? 0), 0) ?? 0,
     [data]
