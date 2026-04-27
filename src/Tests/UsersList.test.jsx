@@ -5,12 +5,12 @@ import UsersList from '../Pages/UsersList';
 import * as UserContext from '../Context/UserContext';
 import { confirmAlert } from 'react-confirm-alert';
 
-// ✅ Mock react-confirm-alert
+
 jest.mock('react-confirm-alert', () => ({
   confirmAlert: jest.fn()
 }));
 
-// ✅ Mock useUsersContext so we control the data in every test
+
 const mockDeleteUser = jest.fn();
 const mockUpdateUser = jest.fn();
 
@@ -60,7 +60,7 @@ describe('UsersList', () => {
     jest.clearAllMocks();
   });
 
-  // ─── Rendering ───────────────────────────────────────────────────
+  
 
   test('renders page title and user count', () => {
     renderWithContext();
@@ -75,7 +75,7 @@ describe('UsersList', () => {
     expect(screen.getByText('john@example.com')).toBeInTheDocument();
   });
 
-  // ─── Age Color Coding ─────────────────────────────────────────────
+  
 
   test('shows age in red when age < 50', () => {
     renderWithContext();
@@ -91,7 +91,7 @@ describe('UsersList', () => {
     expect(ageBadge).toHaveClass('text-green-700');
   });
 
-  // ─── Loading & Error States ───────────────────────────────────────
+  
 
   test('shows loading spinner when loading is true', () => {
     renderWithContext({ loading: true, users: [] });
@@ -104,7 +104,7 @@ describe('UsersList', () => {
     expect(screen.queryByText('Users Management')).not.toBeInTheDocument();
   });
 
-  // ─── Search ───────────────────────────────────────────────────────
+ 
 
   test('filters users by search term', async () => {
     renderWithContext();
@@ -127,7 +127,7 @@ describe('UsersList', () => {
     });
   });
 
-  // ─── Delete ───────────────────────────────────────────────────────
+ 
 
   test('calls confirmAlert when Delete button is clicked', () => {
     renderWithContext();
@@ -154,7 +154,7 @@ describe('UsersList', () => {
     expect(mockDeleteUser).toHaveBeenCalledWith(mockUsers[0].id);
   });
 
-  // ─── Edit ─────────────────────────────────────────────────────────
+  
 
   test('opens edit modal when Edit button is clicked', async () => {
     renderWithContext();
@@ -166,7 +166,7 @@ describe('UsersList', () => {
     });
   });
 
-  // ─── Gender Filter ────────────────────────────────────────────────
+
 
   test('filters users by gender', async () => {
     renderWithContext();
