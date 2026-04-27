@@ -7,7 +7,7 @@ export const SettingsProvider = ({ children }) => {
   const [theme, setTheme] = useState('light');
 
   useEffect(() => {
-    // Load from localStorage
+   
     const savedNotifications = localStorage.getItem('notificationsEnabled');
     const savedTheme = localStorage.getItem('theme') || 'light';
     
