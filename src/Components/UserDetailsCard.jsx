@@ -99,4 +99,4 @@ const UserDetailsCard = ({ user }) => {
   );
 };
 
-export default UserDetailsCard; // ✅ DEFAULT EXPORT
+export default UserDetailsCard; 
