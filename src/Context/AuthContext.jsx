@@ -57,7 +57,7 @@ export const AuthProvider = ({ children }) => {
   );
 };
 
-// ✅ Null guard — throws a clear error if used outside AuthProvider
+
 export const useAuth = () => {
   const context = useContext(AuthContext);
   if (!context) throw new Error("useAuth must be used inside <AuthProvider>");
